@@ -1,0 +1,15 @@
+ul {
+  list-style-type: none;
+}
+.company-name {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700px;
+  font-size: 26px;
+  line-height: 30.52px;
+}
+.header-list {
+  font-family: "Roboto", sans-serif;
+}
+.web-color {
+  color: #2196f3;
+}
