@@ -59,5 +59,20 @@ ul {
 .contact-list-item-phone {
   color: #757575;
   text-decoration: none;
+}
 
 /* ====== END HEADER ====== */
+
+/* ====== MAIN SECTION ====== */
+.main-section {
+  background-color: #2f303a;
+}
+.main-section-title {
+  color: #ffffff;
+  text-align: center;
+}
+.main-section-btn {
+  background-color: var(--active-color);
+  color: #ffffff;
+}
+/* ====== END MAIN SECTION ====== */
