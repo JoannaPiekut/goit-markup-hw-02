@@ -153,3 +153,15 @@ body {
 }
 
 /* ====== END FOOTER SECTION ====== */
+
+/* =============== PORTFOLIO PAGE =============== */
+
+/* ====== SELECTION SECTION ====== */
+.active-btn:hover,
+.active-btn:focus {
+  background-color: var(--active-color);
+  color: #ffffff;
+}
+/* ====== END SELECTION SECTION ====== */
+
+
