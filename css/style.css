@@ -102,3 +102,54 @@ body {
   text-align: center;
 }
 /* ====== END SERVICE SECTION ====== */
+
+/* ====== TEAM SECTION ====== */
+.our-team-header {
+  font-style: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+}
+.worker-name {
+  font-style: 500;
+  font-size: 16px;
+  line-height: 1.188;
+}
+.job-name {
+  font-style: 400;
+  font-size: 16px;
+  line-height: 1.188;
+  color: #757575;
+}
+/* ====== END TEAM SECTION ====== */
+
+/* ====== FOOTER SECTION ====== */
+
+.footer-studio {
+  color: #ffffff;
+}
+.footer-section {
+  background-color: #2f303a;
+}
+.footer-section-address-description {
+  font-style: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 3%;
+  color: #ffffff;
+}
+.footer-section-address-mail,
+.footer-section-address-phone {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 3%;
+}
+.footer-section-address-mail:hover,
+.footer-section-address-mail:focus {
+  color: var(--active-color);
+}
+
+/* ====== END FOOTER SECTION ====== */
