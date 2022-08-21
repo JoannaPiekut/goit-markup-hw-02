@@ -10,14 +10,15 @@ body {
 .web-color {
   color: var(--active-color);
 }
-ul {
-  list-style-type: none;
-}
 .company-name {
   font-family: "Raleway", sans-serif;
   font-weight: 700px;
   font-size: 26px;
   line-height: 30.52px;
+  color: #000000;
+}
+.company-name-link {
+  text-decoration: none;
 }
 
 /* ====== END SAME COMPONENTS ====== */
@@ -76,3 +77,28 @@ ul {
   color: #ffffff;
 }
 /* ====== END MAIN SECTION ====== */
+
+/* ====== ASSETS SECTION ====== */
+.assets-section-list-header {
+  font-style: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 3%;
+}
+.assets-section-list-description {
+  font-style: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 3%;
+  color: #757575;
+}
+/* ====== END ASSETS SECTION ====== */
+
+/* ====== SERVICE SECTION ====== */
+.service-header {
+  font-style: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+}
+/* ====== END SERVICE SECTION ====== */
