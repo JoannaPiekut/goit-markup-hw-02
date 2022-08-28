@@ -1,9 +1,13 @@
 :root {
   --active-color: #2196f3;
+  --second-background: #2f303a;
+  --third-background: #f5f4fa;
+  --main-font-color: #757575;
+  --second-font-color: #212121;
 }
 body {
-  font-family: "Roboto", sans-serif;
-  color: #212121;
+  font-family: "Roboto", sans-serif, "Raleway", sans-serif;
+  color: var(--second-font-color);
 }
 
 /* ====== SAME COMPONENTS ====== */
@@ -20,7 +24,9 @@ body {
 .company-name-link {
   text-decoration: none;
 }
-
+.link {
+  cursor: pointer;
+}
 /* ====== END SAME COMPONENTS ====== */
 
 /* ====== HEADER ====== */
@@ -30,11 +36,11 @@ body {
   font-style: 500;
   font-size: 14px;
   line-height: 1.143;
-  letter-spacing: 2%;
+  letter-spacing: 1.5px;
 }
 
 .header-list-item-link {
-  color: #212121;
+  color: var(--second-font-color);
   text-decoration: none;
 }
 .header-list-item-link:hover,
@@ -46,11 +52,11 @@ body {
   font-style: 500;
   font-size: 14px;
   line-height: 1.143;
-  color: #757575;
-  letter-spacing: 2%;
+  color: var(--main-font-color);
+  letter-spacing: 1.5px;
 }
 .contact-list-item-mail {
-  color: #757575;
+  color: var(--main-font-color);
   text-decoration: none;
 }
 .contact-list-item-mail:hover,
@@ -58,7 +64,7 @@ body {
   color: var(--active-color);
 }
 .contact-list-item-phone {
-  color: #757575;
+  color: var(--main-font-color);
   text-decoration: none;
 }
 
@@ -66,7 +72,7 @@ body {
 
 /* ====== MAIN SECTION ====== */
 .main-section {
-  background-color: #2f303a;
+  background-color: var(--second-background);
 }
 .main-section-title {
   color: #ffffff;
@@ -83,14 +89,14 @@ body {
   font-style: 700;
   font-size: 14px;
   line-height: 1.143;
-  letter-spacing: 3%;
+  letter-spacing: 1.5px;
 }
 .assets-section-list-description {
   font-style: 400;
   font-size: 14px;
   line-height: 1.714;
-  letter-spacing: 3%;
-  color: #757575;
+  letter-spacing: 1.5px;
+  color: var(--main-font-color);
 }
 /* ====== END ASSETS SECTION ====== */
 
@@ -104,6 +110,9 @@ body {
 /* ====== END SERVICE SECTION ====== */
 
 /* ====== TEAM SECTION ====== */
+.our-team {
+  background-color: var(--third-background);
+}
 .our-team-header {
   font-style: 700;
   font-size: 36px;
@@ -119,7 +128,7 @@ body {
   font-style: 400;
   font-size: 16px;
   line-height: 1.188;
-  color: #757575;
+  color: var(--main-font-color);
 }
 /* ====== END TEAM SECTION ====== */
 
@@ -129,23 +138,24 @@ body {
   color: #ffffff;
 }
 .footer-section {
-  background-color: #2f303a;
+  background-color: var(--second-background);
 }
 .footer-section-address-description {
-  font-style: 400;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.714;
-  letter-spacing: 3%;
+  letter-spacing: 1.5px;
   color: #ffffff;
 }
 .footer-section-address-mail,
 .footer-section-address-phone {
+  font-weight: 400;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
   font-size: 14px;
   line-height: 1.714;
-  letter-spacing: 3%;
+  letter-spacing: 1.5px;
 }
 .footer-section-address-mail:hover,
 .footer-section-address-mail:focus {
@@ -156,12 +166,38 @@ body {
 
 /* =============== PORTFOLIO PAGE =============== */
 
-/* ====== SELECTION SECTION ====== */
+/* ====== MENU SECTION ====== */
 .active-btn:hover,
 .active-btn:focus {
   background-color: var(--active-color);
   color: #ffffff;
 }
-/* ====== END SELECTION SECTION ====== */
+/* ====== END MENU SECTION ====== */
 
+/* ====== CATEGORIES SECTION ====== */
+.categories {
+}
+.categories-list {
+}
+.categories-list-item {
+}
+.categories-list-item-figure {
+}
+.categories-list-item-figure-img {
+}
+.categories-list-item-figcaption {
+}
+.category-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.444;
+  letter-spacing: 1.5px;
+}
+.category-description {
+  font-size: 16px;
+  line-height: 1.85;
+  color: #757575;
+  letter-spacing: 1px;
+}
 
+/* ====== END CATEGORIES SECTION ====== */
