@@ -4,6 +4,7 @@
   --third-background: #f5f4fa;
   --main-font-color: #757575;
   --second-font-color: #212121;
+  --button-background: #f5f4fa;
 }
 body {
   font-family: "Roboto", sans-serif, "Raleway", sans-serif;
@@ -167,6 +168,16 @@ body {
 /* =============== PORTFOLIO PAGE =============== */
 
 /* ====== MENU SECTION ====== */
+
+.button {
+  background-color: var(--button-background);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  color: var(--second-font-color);
+  letter-spacing: 1.5px;
+  border: none;
+}
 .active-btn:hover,
 .active-btn:focus {
   background-color: var(--active-color);
@@ -175,7 +186,7 @@ body {
 /* ====== END MENU SECTION ====== */
 
 /* ====== CATEGORIES SECTION ====== */
-.categories {
+/* .categories {
 }
 .categories-list {
 }
@@ -186,7 +197,7 @@ body {
 .categories-list-item-figure-img {
 }
 .categories-list-item-figcaption {
-}
+} */
 .category-name {
   font-weight: 700;
   font-size: 18px;
