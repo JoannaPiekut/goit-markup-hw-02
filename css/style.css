@@ -17,7 +17,7 @@ body {
 }
 .company-name {
   font-family: "Raleway", sans-serif;
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 26px;
   line-height: 30.52px;
   color: #000000;
@@ -34,7 +34,7 @@ body {
 
 .header-list-item {
   text-decoration: none;
-  font-style: 500;
+  font-style: inherit;
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 1.5px;
@@ -50,7 +50,7 @@ body {
 }
 .contact-list-item {
   text-decoration: none;
-  font-style: 500;
+  font-style: inherit;
   font-size: 14px;
   line-height: 1.143;
   color: var(--main-font-color);
@@ -87,13 +87,13 @@ body {
 
 /* ====== ASSETS SECTION ====== */
 .assets-section-list-header {
-  font-style: 700;
+  font-style: inherit;
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 1.5px;
 }
 .assets-section-list-description {
-  font-style: 400;
+  font-style: inherit;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 1.5px;
@@ -103,7 +103,8 @@ body {
 
 /* ====== SERVICE SECTION ====== */
 .service-header {
-  font-style: 700;
+  font-style: inherit;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.167;
   text-align: center;
@@ -115,18 +116,21 @@ body {
   background-color: var(--third-background);
 }
 .our-team-header {
-  font-style: 700;
+  font-style: inherit;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.167;
   text-align: center;
 }
 .worker-name {
-  font-style: 500;
+  font-style: inherit;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.188;
 }
 .job-name {
-  font-style: 400;
+  font-style: inherit;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.188;
   color: var(--main-font-color);
@@ -142,7 +146,7 @@ body {
   background-color: var(--second-background);
 }
 .footer-section-address-description {
-  font-style: normal;
+  font-style: inherit;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 1.5px;
@@ -153,7 +157,7 @@ body {
   font-weight: 400;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
-  font-style: normal;
+  font-style: inherit;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 1.5px;
@@ -171,7 +175,7 @@ body {
 
 .button {
   background-color: var(--button-background);
-  font-weight: medium;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.625;
   color: var(--second-font-color);
